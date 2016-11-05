@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        style="@style/linearStationStyleParameters">
+        <TextView
+            android:text="@string/strCountry"
+            style="@style/TxViewForDialogStation"
+            android:layout_width="100dp"/>
+        <Spinner
+            android:id="@+id/spCountry"
+            style="@style/spinnerStyleCountryAndCity"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linearStationStyleParameters">
+        <TextView
+            android:text="@string/srtCity"
+            style="@style/TxViewForDialogStation"
+            android:layout_width="100dp"/>
+        <Spinner
+            android:id="@+id/spCity"
+            android:clickable="false"
+            style="@style/spinnerStyleCountryAndCity"/>
+    </LinearLayout>
+</LinearLayout>

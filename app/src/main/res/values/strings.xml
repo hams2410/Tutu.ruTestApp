@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Tutu.ru TestApp</string>
+    <!--Main Screen-->
+    <string name="titleActionBar">Расписание</string>
+    <string name="hintForFromStation">Станция отправления</string>
+    <string name="hintForToStation">Станция прибытия</string>
+    <string name="date">Дата отправления</string>
+    
+    <!--List Item menu-->
+    <string name="ScheduleItem1">Расписание</string>
+    <string name="AboutAppItem2">О приложении</string>
+
+    <string name="drawer_open">Открыть</string>
+    <string name="drawer_close">Закрыть</string>
+
+    <!--Dialogs-->
+    <string name="strCountry">Страна :</string>
+    <string name="srtCity">Город :</string>
+    <string name="titleDialogParametersStation">Выберите страну и город</string>
+    <string name="nameStation">Название станции :</string>
+    <string name="nameRegion">Регион :</string>
+    <string name="aboutStationTitle">Информация о станции</string>
+
+    <string name="about_app_description">Приложение Tutu.ru TestApp разработано начинающим разработчиком по тестовому заданию компании Tutu.ru. Является некомерческой программой с открытым исходным кодом под лицензией MIT</string>
+
+    <!--Main Activity-->
+    <string name="versionStr">Версия :</string>
+    <!--zero is used for different cases -->
+    <integer name="zero">0</integer>
+    <string name="fromOrTo">fromOrTo</string>
+    <string name="citiesFrom">citiesFrom</string>
+    <string name="citiesTo">citiesTo</string>
+    <string name="DatePicker">DatePicker</string>
+    <string name="station">station</string>
+    <string name="NoStation">Станция не выбрана</string>
+
+    <!--SearchStation-->
+    <string name="countryTitle">countryTitle</string>
+    <string name="cityTitle">cityTitle</string>
+    <string name="stations">stations</string>
+    <string name="stationTitle">stationTitle</string>
+    <string name="regionTitle">regionTitle</string>
+    <string name="jsonAddress">https://raw.githubusercontent.com/tutu-ru/hire_android_test/master/allStations.json</string>
+
+</resources>

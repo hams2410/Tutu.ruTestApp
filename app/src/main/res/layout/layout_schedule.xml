@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/idBtnFromStation"
+        style="@style/StyleBtnFromToStation"
+        android:text="@string/hintForFromStation" />
+
+    <Button
+        android:id="@+id/idBtnToStation"
+        style="@style/StyleBtnFromToStation"
+        android:text="@string/hintForToStation" />
+
+    <Button
+        android:id="@+id/idBtnDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorDate"
+        android:text="@string/date"
+        android:textColor="@android:color/holo_blue_dark" />
+</LinearLayout>

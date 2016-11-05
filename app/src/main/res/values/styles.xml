@@ -1,0 +1,72 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="android:spinnerItemStyle">@style/spinnerItem</item>
+        <item name="android:spinnerDropDownItemStyle">@style/spinnerItemHoloDrop</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="spinnerItem"
+        parent="android:Widget.Holo.TextView.SpinnerItem">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="spinnerItemHoloDrop"
+        parent="android:Widget.Holo.DropDownItem.Spinner">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="StyleBtnFromToStation">
+        <item name="android:textSize">17sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">13dp</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="TxViewForDialogStation">
+        <item name="android:gravity">left</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="StyleRowLinearDialogAboutStationL">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">320dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="spinnerStyleCountryAndCity">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="linearStationStyleParameters">
+       <item name="android:layout_width">match_parent</item>
+       <item name="android:layout_height">wrap_content</item>
+       <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="linearAboutApp">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_marginTop">40dp</item>
+    </style>
+    <style name="TextViewAboutApp">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>
